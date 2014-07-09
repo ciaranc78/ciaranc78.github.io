@@ -1,12 +1,14 @@
 body {
-  padding-top: 140px;  
+  padding-top: 180px;  
   background-color: #f5f9fa;
+  font-family: "Georgia";
 }
 .text-center {
   padding-top: 20px;
 }
 .col-xs-12 {
   background-color #fff;
+  text-align: center;
 }
 #sidebar {
   height: 100%;
@@ -21,9 +23,11 @@ body {
   border-bottom-width:1px;
 }
 .navbar {
-  background-color: #edd3ed;
+  background-color: #f7ebf7;
   font-size: .95em;
   padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .navbar2 {
   background-color: #edeef5;
