@@ -7,8 +7,15 @@ body {
   padding-top: 20px;
 }
 .col-xs-12 {
-  background-color #fff;
+  background-color: #e6f1f5;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  color: #054047;
+  font-size: 1.2em;
 }
 #sidebar {
   height: 100%;
@@ -20,7 +27,7 @@ body {
 }
 #sidebar li {
   border:0 #f2f2f2 solid;
-  border-bottom-width:1px;
+  border-bottom-width:2px;
 }
 .navbar {
   background-color: #f7ebf7;
@@ -28,11 +35,47 @@ body {
   padding-left: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
+  border-bottom-left-radius: 40px;
+  }
+ .navbar .nav>li>a{
+   color: black;
+ }
+ .navbar .nav>li>a:hover{
+   color: #ea7df0;
+ }
+.navbar-inner a{
+  text-decoration: none;
+
 }
-.navbar2 {
-  background-color: #edeef5;
-  font-size: .95em;
-  padding-left: 20px;
+.navbar-inner h1{
+font-size: 3em;
+}
+
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: black;
+  a {
+    color: #eaeaea;
+    &:hover {
+      color: #eaeaea;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+}
+
 
 
 
