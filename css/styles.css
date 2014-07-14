@@ -9,13 +9,11 @@ body {
 .col-xs-12 {
   background-color: #e6f1f5;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 30px;
+  margin-left: 15px;
   border-radius: 30px;
   color: #054047;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 #sidebar {
   height: 100%;
@@ -27,7 +25,7 @@ body {
 }
 #sidebar li {
   border:0 #f2f2f2 solid;
-  border-bottom-width:2px;
+  border-bottom-width:1px;
 }
 .navbar {
   background-color: #f7ebf7;
@@ -36,6 +34,11 @@ body {
   padding-bottom: 10px;
   padding-top: 10px;
   border-bottom-left-radius: 40px;
+  margin-left: 15px;
+  }
+  .navbar .nav>li{
+    margin-top: 0px;
+    padding-top: -20px;
   }
  .navbar .nav>li>a{
    color: black;
@@ -45,20 +48,27 @@ body {
  }
 .navbar-inner a{
   text-decoration: none;
+  padding-left: 15px;
 
 }
 .navbar-inner h1{
 font-size: 3em;
 }
-
+.navbar .nav.pull-right {
+     float: right;
+    margin-top: -15px;
+  
+  }
 
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: black;
-  a {
-    color: #eaeaea;
+  color: grey;
+  padding-bottom: 45px;
+}
+ footer a {
+    color: #054047;
     &:hover {
       color: #eaeaea;
     }
