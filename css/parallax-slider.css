@@ -9,9 +9,10 @@
     font-style: normal;
 }
 
+/* Control settings for slider */
 .da-slider{
 	width: 100%;
-	height: 350px;
+	height: 550px;
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
@@ -29,12 +30,12 @@
 }
 
 .da-slide{
-	position: absolute;
+    position: absolute;
 	width: 960px;
 	height: 100%;
 	left: 50%;
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	text-align: left;
+	text-align:left;
 	margin-left: -480px;
 }
 .da-slide-current{
@@ -57,7 +58,7 @@
 .da-slider-fb .da-slide h2,
 .da-slider-fb .da-slide p,
 .da-slider-fb .da-slide .da-link{
-	left: 10%;
+	left: 100%;
 	opacity: 1;
 }
 .da-slider-fb .da-slide .da-img{
@@ -88,11 +89,11 @@
 }
 .da-slide .da-img{
 	text-align: center;
-	width: 40%;
+	width: 80%;
 	top: 10px;
-	height: 350px;
+	/*height: 550px; 350px;*/
 	line-height: 350px;
-	left: 110%; /*60%*/
+	left:100px;
 }
 .da-slide .da-link{
 	top: 270px; /*depends on p height*/

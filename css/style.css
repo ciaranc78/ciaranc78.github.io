@@ -26,15 +26,30 @@
 body {
 	font-family: 'Droid Sans';
 	font-size: 12px;
-	color: #666;
+	color: #fff;
 }
 
- h2, h3, h4, h5, h6 {
-	font-family: "Boogaloo" !important;
+
+
+ h1, h2, h3, h4, h5, h6 {
+	font-family: "Droid" !important;
 	font-weight: normal !important;
 	color: #666;
 	margin: 0;
+	margin-top: 15px;
 	padding: 0;
+}
+.span3 {
+	width: 220px;
+}
+.logo h1{
+	font-family: 'Droid' !important;
+	font-weight: strong !important;
+	font-size: 3.6em;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+
 }
 
 .title {
@@ -43,7 +58,7 @@ body {
 }
 
 .title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
-	border-bottom: 5px double #431757 !important;
+	border-bottom: 5px double #666 !important;
 	margin-bottom: -4px !important;
 	display: inline-block !important;
 	padding: 0px 10px !important;
@@ -52,7 +67,7 @@ body {
 }
 
 #wrapper {
-	background: #F5E6FC;
+	background: #F5E6FC url(../img/bg-k10.png);
 
 }
 
@@ -77,7 +92,7 @@ body {
 	
 header {
 	background: #F5E6FC;
-	border-bottom: 5px solid #f6f6f6;
+	border-bottom: 5px solid #E8E0E9;
 }
 
 .logo img {
@@ -158,6 +173,23 @@ header {
 	top: 15px;
 }
 
+
+
+/* Gallery */
+.gallery-container {
+	padding-top: 30px;
+}
+/* Thumbnails 
+*/
+a.thumbnail:hover {
+border-color: #89649b;
+}
+
+a.thumbnail {
+	border-color: #666;
+}
+
+
 /* Page Title
 =================================================================== */
 
@@ -194,14 +226,14 @@ header {
 #page-title {
 	background: url(../img/bg-grey2.png);
 	display: block;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 	position: relative;
 	z-index: 20;
-	border-bottom: 5px solid #f6f6f6;
+	border-bottom: 5px solid #E8E0E9;
 }
 
 #page-title-inner {
-	background: rgba(153,204,102, 0.9);
+	background: rgba(182,160,165, 0.9);/*(153,204,102, 0.9);*/
 	-webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
 	-moz-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
 	box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
@@ -209,16 +241,17 @@ header {
 }
 
 #page-title i {
-	margin: -6px 2px -5px -18px;
+	margin: -2px 2px -5px -18px;
 	padding: 0px;
 }
 
 #page-title h2 {
 	display: inline-block;
-	font-family: "Boogaloo" !important;
-	color: #F5E6FC;
-	padding: 10px 20px 5px 20px;
-	font-size: 30px;
+	/*font-family: "Boogaloo" !important;*/
+	color: #E8E0E9;
+	padding: 0px 20px 5px 20px;
+	font-size: 35px;
+	margin-top: 0px;
 }
 
 #page-title span {
@@ -321,6 +354,11 @@ html[xmlns] .slides {display: block;}
 
 .subpage .flex-direction-nav a {bottom: 0px; right: 0px; *bottom: 30px;}
 
+/* Sidebar images */
+
+.sidebar-images {
+	padding: 20px;
+}
 
 /* Control Nav
 =================================================================== */
@@ -392,10 +430,10 @@ html[xmlns] .slides {display: block;}
 }
 
 /* Notice
-====================================================================== */
+====================================================================== 
 
 .hero-unit {
-	background: #F5E6FC url(../img/bg-k10.png);
+	background: #F5E6FC url(../img/bg-k10.png); 
 	border-left: 4px solid #431757;
 	padding: 13px 13px 13px 15px;
 	font-style: italic;
@@ -404,6 +442,13 @@ html[xmlns] .slides {display: block;}
      -moz-border-radius: 0px;
           border-radius: 0px;
 	font-size: 14px !important;
+}*/
+.hero-unit {
+	border-radius: 40px;
+	background: #e5c8f3;
+	padding: 20px;
+	margin-top: 55px;
+	margin-bottom: -20px;
 }
 
 /* Icon Boxes
@@ -584,6 +629,8 @@ html[xmlns] .slides {display: block;}
 
 }
 
+
+
 .team-name span {
 	font-size: 12px;
 	font-weight: normal;
@@ -654,7 +701,7 @@ html[xmlns] .slides {display: block;}
 
 .mr-rotato-next {
 	background: url(../img/testimonials-right-01.png) no-repeat 50%;
-	background-color: #F5E6FC;
+	background-color: black;/*#F5E6FC;*/
 	right: -1px;
 	z-index: 6;
 }
@@ -1017,7 +1064,7 @@ a.buy:hover {
 	height: 20px;
 	margin-top: -40px;
 	border-bottom: 5px solid #f6f6f6;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 #googlemaps{
