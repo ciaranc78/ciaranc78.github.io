@@ -52,7 +52,7 @@ p {
   font-size: 13px;
 }
 a {
-  color: #666;
+  color: rgba(222, 193, 233, 0.88);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -60,7 +60,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: rgba(222, 193, 233, 0.88);
+  color: #666;
 }
 .btn {
   -webkit-transition: all 0.4s ease-in-out;
@@ -629,15 +629,6 @@ ul.custom-list-style li {
 .social-icons a {
   display: inline-block;
   background: #95b6d1;
-  width: 20x;
-  height: 20px;
-  text-align: center;
-  padding-top: 4px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -647,6 +638,7 @@ ul.custom-list-style li {
 }
 .social-icons a:hover {
   background: #6091ba;
+  
 }
 .social-icons a .fa {
   color: #fff;
@@ -2017,7 +2009,7 @@ ul.custom-list-style li {
     height: 100%;
   }
   body {
-    font-size: 23px;
+    font-size: 17px;
   }
   .wrapper {
     min-height: 100%;
