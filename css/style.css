@@ -1380,10 +1380,13 @@ form#newsletter input[type=submit] {
   border-color: #c5c5c5;
   border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
 }
+.social-icons >.fb-btn {
+   border: 12px solid #fff;
+}
 
 .btn-primary {
   background-color: #006dcc;
-  color: #F5E6FCF5E6FC;
+  color: #F5E6FC;
   background-image: -moz-linear-gradient(top, #431757, #431757);
   background-image: -ms-linear-gradient(top, #431757, #431757);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#431757), to(#431757));
@@ -1468,7 +1471,7 @@ form#newsletter input[type=submit] {
 
 .btn-success {
   background-color: #5bb75b;
-  color: #F5E6FCF5E6FC;
+  color: #F5E6FC;
   background-image: -moz-linear-gradient(top, #431757, #431757);
   background-image: -ms-linear-gradient(top, #431757, #431757);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#431757), to(#431757));

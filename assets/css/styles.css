@@ -8,15 +8,47 @@
 html,
 body {
   height: 100%;
-  background-color: #fff;/*#f7eefc;*/
+  background-color: #FDFDFD;
   color: #666;
   font-family: 'Droid';
+  padding: 0px;
+}
+
+.ciri {
+  margin: 0 auto;
+  max-width: 960px;
+  background-color: #fff;
 }
 body {
-  font-size: 13px;
+  font-size: 21px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#page-body {
+
+  font-size: .8em;
+  color: #666;
+}
+#page-body h2 {
+  color: #666;
+}
+.contact-form h2{
+  font-size: 1.1em;
+}
+.form-control {
+height: 25px;
+}
+.btn {
+padding: 3px 10px;
+  }
+#page-body a{
+  color: rgba(160, 77, 192, 0.88);
+  }
+#page-body a:hover{
+  text-decoration: none;
+  color: rgba(222, 193, 233, 0.88);
+  }
 .wrapper {
   min-height: 100%;
   margin-bottom: -344px;
@@ -40,19 +72,25 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5,
 h6 {
   font-family: 'Droid', 'open sans', arial, sans-serif;
   font-weight: 500;
   margin-bottom: -10px;
+}
+
+h4 {
+  font-size: .8em;
+}
+h5 {
+  font-size: 1.2em;
+  font-weight: bold;
 }
 p {
   color: #444444;
   font-size: 13px;
 }
 a {
-  color: rgba(222, 193, 233, 0.88);
+  color: rgba(160, 77, 192, 0.88);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -60,7 +98,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #666;
+  color: rgba(222, 193, 233, 0.88);
 }
 .btn {
   -webkit-transition: all 0.4s ease-in-out;
@@ -303,6 +341,21 @@ ul.custom-list-style li {
   position: relative;
   margin-bottom: -1px;
 }
+.forabg{
+  background-color: #666;
+}
+li.header dd {
+  font-size: .8em;
+}
+.navbar {
+  margin-top: 40px;
+  background-color: #f7eefc;
+  color: #666;
+  font-size: .7em;
+}
+.navbar a{
+  color: #666
+}
 .tab-content {
   border: 1px solid #e8e8e8;
   padding: 15px;
@@ -374,11 +427,11 @@ ul.custom-list-style li {
   color: #fff;
 }
 .panel-group .panel {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0;
+  -webkit-border-radius: 50;
+  -moz-border-radius: 50;
+  -ms-border-radius: 50;
+  -o-border-radius: 50;
+  border-radius: 50;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -394,9 +447,11 @@ ul.custom-list-style li {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  background-color: rgba(222, 193, 233, 0.88);
+
 }
 .panel-group .panel .panel-heading .panel-title a {
-  color: #C7ACCF;
+  color: #666;
 }
 .panel-group .panel .panel-heading .panel-title a:before {
   font-family: FontAwesome;
@@ -406,11 +461,15 @@ ul.custom-list-style li {
   content: "\f146";
   margin-right: 5px;
 }
+.panel-title {
+font-size: 1em;
+  }
 .panel-group .panel .panel-heading .panel-title a.collapsed:before {
   content: "\f0fe";
 }
 .panel-group .panel .panel-body {
-  font-size: 13px;
+  font-size: 1em;
+  background-color: #f7eefc;
 }
 .panel {
   -webkit-border-radius: 0;
@@ -603,10 +662,24 @@ ul.custom-list-style li {
 .box.box-border {
   border-left: 5px solid rgba(222, 193, 233, 0.88);
 }
+
+
 .box.box-dark {
   background: rgba(222, 193, 233, 0.88);;
   color: #666;
   border-radius: 20px;
+}
+
+.promo.box.box-dark {
+  width: 93%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.promo.box.box-light {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .box.box-theme {
   background: #6091ba;
@@ -617,7 +690,7 @@ ul.custom-list-style li {
 }
 .social-icons {
   list-style: none;
-  padding: 10px 0;
+  padding: 7px 0;
   margin-bottom: 0;
 }
 .social-icons li {
@@ -638,7 +711,7 @@ ul.custom-list-style li {
 }
 .social-icons a:hover {
   background: #6091ba;
-  
+
 }
 .social-icons a .fa {
   color: #fff;
@@ -683,7 +756,20 @@ ul.custom-list-style li {
 .header .header-main {
   padding: 5px 0;
 }
-.header h1.logo {
+.header h1.logo  {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+.logo-txt {
+  color: rgba(150, 69, 163, 0.78);
+}
+.logo-txt > h1{
+    margin-top: 10px;
+}
+
+
+.header .logo {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 30px;
@@ -762,10 +848,11 @@ ul.custom-list-style li {
 }
 .main-nav {
   background: rgba(205, 193, 207, 0.78); 
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
+
 .main-nav button {
-  background: #27435a;
+  background: #A368BE;
   color: #fff !important;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -931,6 +1018,10 @@ ul.custom-list-style li {
   color: #dcdcdc;
   line-height: 3;
 }
+.copyright{
+margin-right: auto;
+margin-left: auto;
+}
 .footer .bottom-bar .copyright a:hover {
   color: #9141b8;
 }
@@ -1016,7 +1107,7 @@ ul.custom-list-style li {
 }
 /* ======= Page ======= */
 .page-wrapper .page-heading {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border-bottom: 1px solid #e8e8e8;
 }
 .page-wrapper .page-heading h1.heading-title {
@@ -1033,7 +1124,7 @@ ul.custom-list-style li {
   margin: 0;
 }
 .page-wrapper .breadcrumbs ul li {
-  color: #6091ba;
+  color: #A460BA;
   font-size: 12px;
   float: left;
   list-style: none;
@@ -1478,7 +1569,7 @@ ul.custom-list-style li {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  background: #dddddd;
+  background: #BB92B8;
   color: #fff;
   display: inline-block;
   width: 20px;
@@ -1496,7 +1587,7 @@ ul.custom-list-style li {
   padding-right: 1px;
 }
 .home-page .carousel-controls a:hover .fa {
-  background: #6091ba;
+  background: rgba(160, 77, 192, 0.88);
 }
 .home-page .promo {
   margin-bottom: 30px;
@@ -1608,14 +1699,19 @@ ul.custom-list-style li {
 }
 .home-page .testimonials {
   position: relative;
+  height: 470px;
+  vertical-align: center;
 }
 .home-page .testimonials .carousel-controls {
   position: absolute;
   right: 10px;
   top: 10px;
 }
+.readmore {
+  margin-left: 25px;
+}
 .home-page .testimonials .fa {
-  color: rgba(222, 193, 233, 0.88);
+  color: #BB92B8;
   margin-right: 5px;
   font-size: 18px;
 }
@@ -1624,6 +1720,7 @@ ul.custom-list-style li {
 }
 .home-page .testimonials .people {
   margin-top: 10px;
+  padding-left: 15px;
 }
 .home-page .testimonials .people .name {
   color: #666;
@@ -2009,7 +2106,7 @@ ul.custom-list-style li {
     height: 100%;
   }
   body {
-    font-size: 17px;
+    font-size: 19px;
   }
   .wrapper {
     min-height: 100%;
@@ -2026,6 +2123,7 @@ ul.custom-list-style li {
   }
   .footer {
     height: 344px;
+    margin-top: 50px;
     /* must be the same height as footer */
   }
 }

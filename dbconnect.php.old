@@ -1,0 +1,21 @@
+
+
+<html>
+<head>
+	<title>Untitled</title>
+</head>
+
+<body>
+<?php 
+#mysql_connect("mysql1.webhost.ie", "pnd", "babyblues")or
+mysql_connect("localhost", "root", "reverse")or
+	die("Could not connect to database");
+	
+mysql_select_db("pnd")or
+	die("Could not select database");
+
+	?>
+
+
+</body>
+</html>
