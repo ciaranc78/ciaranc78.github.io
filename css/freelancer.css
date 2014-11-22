@@ -27,6 +27,17 @@ a.active {
     color: #fff !important
 }
 
+.about-container {
+    background-color: #D8E4E2;
+}
+.contact {
+    background-color: #D8E4E2 !important;
+
+}
+.blue-back {
+    background-color: #D8E4E2 !important;
+}
+
 h1,
 h2,
 h3,
@@ -64,6 +75,11 @@ hr.star-light {
 }
 
 hr.star-light:after {
+    color: #000;
+    background-color: #fff;
+}
+
+hr.blue-back:after {
     color: #000;
     background-color: #D8E4E2;
 }
@@ -183,7 +199,7 @@ section h2 {
 
 section.success {
     color: #2c3e50;
-    background: #D8E4E2;
+    background: #fff;
 }
 
 @media(max-width:767px) {
